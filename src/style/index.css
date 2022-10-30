@@ -1,0 +1,159 @@
+.header {
+    position: absolute;
+    width: 1240px;
+    height: 68px;
+    left: 100px;
+    top: 40px;
+
+
+
+}
+
+.nav {
+    /*position: absolute;*/
+    left: 75.08%;
+    right: 0%;
+    top: 25%;
+    bottom: 25%;
+
+
+}
+
+.nav-selected {
+    /* Accueil */
+
+    position: absolute;
+    left: 75.08%;
+    right: 13.95%;
+    top: 25%;
+    bottom: 25%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    /* or 34px */
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #FF6060;
+
+
+}
+
+.nav-not-selected {
+    /* A Propos */
+
+    position: absolute;
+    left: 90.65%;
+    right: 0%;
+    top: 25%;
+    bottom: 25%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    /* or 34px */
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+
+    color: #FF6060;
+
+
+}
+
+.logo {
+    position: absolute;
+    left: 0%;
+    right: 83.04%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.body-header {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+}
+
+.not-found-body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+}
+
+.back-to-Home {
+    position: absolute;
+    left: 40.14%;
+    right: 40.14%;
+    top: 81.93%;
+    bottom: 15.53%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    /* identical to box height, or 26px */
+
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+
+    color: #FF6060;
+
+}
+
+.text404 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 142.6%;
+    /* or 411px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF6060;
+
+}
+
+.text-ops {
+    /* Oups! La page que vous demandez n'existe pas. */
+
+    position: absolute;
+    left: 20.49%;
+    right: 18.96%;
+    top: 59.18%;
+    bottom: 35.84%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    /* or 51px */
+    display: flex;
+    align-items: flex-end;
+
+    color: #FF6060;
+
+}
