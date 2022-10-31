@@ -1,12 +1,14 @@
 import React from 'react';
-import Navigation from '../components/navigation/Navigation';
+import Footer from '../components/footer/Footer';
+import Header from '../components/header/Header';
 
 const Home = () => {
     return (
         <div >
 
-            <Navigation />
-            <h1>Acceuil</h1>
+            <Header />
+
+            <Footer></Footer>
         </div>
     );
 };

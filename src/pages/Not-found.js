@@ -1,16 +1,18 @@
 import React from 'react';
-import Navigation from '../components/navigation/Navigation';
+import Footer from '../components/footer/Footer';
+import Header from '../components/header/Header';
 
 const NotFound = () => {
     return (
         <div className='not-found-body'>
 
-            <Navigation />
+            <Header />
             <div className='text404'>404</div>
             <div className='text-ops'>
                 Oups! La page que vous demandez n'existe pas.
             </div>
             <div className='back-to-Home'>Retourner sur la page d’accueil</div>
+            <div><Footer></Footer></div>
         </div>
     );
 };
