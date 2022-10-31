@@ -1,0 +1,32 @@
+.banner-body {
+    margin-top: 70px;
+}
+
+
+.banner-text {
+    /* Chez vous, partout et ailleurs */
+    position: absolute;
+    z-index: 3;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 142.6%;
+    left: 45%;
+    top: 50%;
+    color: #FFFFFF;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.bgd {
+    position: absolute;
+    /* width: 90%; */
+    height: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2;
+    border-radius: 25px;
+}

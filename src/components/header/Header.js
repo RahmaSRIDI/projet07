@@ -1,28 +1,25 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from './Logo';
-
+import "./header.css"
 
 const Header = () => {
     return (
 
-
-        <div className="header">
-            <NavLink to="/"><Logo /></NavLink>
-            <div className='nav'>
-
-                <NavLink to="/home" className={(nav) => (nav.isActive ? " nav-selected" : "nav-not-selected")}>
-                    Acceuil
+        <div className="navbar">
+            <div className="logo">
+                <NavLink className="nav" to="/">
+                    <img src="./logo-header.svg" alt="Logo Ksa Header" />
                 </NavLink>
-                <NavLink to="/about" className={(nav) => (nav.isActive ? " nav-selected" : "nav-not-selected")}>
-                    A Propos
-                </NavLink>
-
-
-
             </div>
-        </div >
-
+            <div className="list-menu">
+                <div className="navli">
+                    <NavLink cli className="navli" to="/">Accueil</NavLink>
+                </div>
+                <div className="navli">
+                    <NavLink className="navli" to="/about">À propos</NavLink>
+                </div>
+            </div>
+        </div>
     );
 };
 

@@ -1,8 +1,14 @@
 import React from 'react';
-
+import "./banner.css"
 const Banner = () => {
     return (
-        <div>
+        <div className="banner-body">
+
+            <div className="title_img">
+                <img src="./banner.png" alt="bgdimg" />
+                <h2 className="banner-text">Chez vous, partout et ailleurs</h2>
+            </div>
+            <div className="bgd"></div>
 
         </div>
     );

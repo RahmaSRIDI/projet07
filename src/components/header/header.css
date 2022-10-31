@@ -1,0 +1,55 @@
+.logo {
+    position: absolute;
+    left: 0%;
+    right: 83.04%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.navbar {
+    margin-top: 54px;
+    margin-left: 50px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* LOGO */
+
+.nav img {
+    width: 250px;
+    margin-left: 108px;
+    position: absolute;
+    top: 20px;
+}
+
+/* MENU */
+
+.list-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.navli {
+    margin-right: 70px;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 142.6%;
+    /* or 34px */
+}
+
+.navli :active {
+    text-decoration-line: underline;
+    color: #FF6060;
+}
+
+.nav {
+    color: #FF6060;
+    text-decoration: none;
+    text-decoration-line: none;
+}
