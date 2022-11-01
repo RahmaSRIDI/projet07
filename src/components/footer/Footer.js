@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div className="footer">
             <NavLink to="/">
-                <img src="./logo-footer.png" alt="Logo footer Kasa" />
+                <img src="./assets/logo-footer.png" alt="Logo footer Kasa" />
             </NavLink>
             <p>© 2020 Kasa. All rights reserved</p>
         </div>

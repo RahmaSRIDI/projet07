@@ -1,0 +1,11 @@
+.logements-background {
+    width: 81%;
+    margin: 20px auto;
+    background: #F7F7F7;
+    border-radius: 25px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
