@@ -14,19 +14,15 @@ const Logements = () => {
 
     })
     return (
-        /*<div className="background">
-            <div className="location-card-info">
-                {locations.map((location) => <LocationCard key={location.id} location={location} />)}
-            </div>
-        </div>*/
 
         <div className="logements-background">
-            {data.map((logement, index) => (
-                <div className="cards">
-                    <Card key={index} logement={logement}></Card>
-                </div>
-            ))}
+            <div className="cards">
+                {data.map((logement, index) => (
 
+                    <Card key={index} logement={logement}></Card>
+
+                ))}
+            </div>
         </div>
     );
 };

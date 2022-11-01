@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './pages/About';
 import Home from './pages/Home';
+import Logement from './pages/Logement';
 import NotFound from './pages/Not-found';
 
 const App = () => {
@@ -11,6 +12,8 @@ const App = () => {
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='*' element={<NotFound />}></Route>
+        <Route path='/logement' element={<NotFound />}></Route>
+        <Route exact path="/logement/:id" element={<Logement />} />
 
       </Routes>
     </BrowserRouter>
