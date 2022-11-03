@@ -1,14 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "./header.css"
-
+import logoHeader from "../../assets/logo-header.svg";
 const Header = () => {
     return (
 
         <div className="navbar">
             <div className="logo">
                 <NavLink className="nav" to="/">
-                    <img src="./assets/logo-header.svg" alt="Logo Ksa Header" />
+                    <img src={logoHeader} alt="Logo Ksa Header" />
                 </NavLink>
             </div>
             <div className="list-menu">

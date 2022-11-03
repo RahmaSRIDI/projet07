@@ -2,13 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './card.css';
 const Card = ({ logement }) => {
-    //console.log(logement);
     return (
 
-        <NavLink className="linklocation" to={"/logments/" + logement.id}>
-            <div className="location-card" style={{ backgroundImage: `url(${logement.pictures[0]})` }}>
-                <h5 className="location-title">{logement.title}</h5>
-                <div className="location-bgd"></div>
+        <NavLink className="logements-link" to={"/logement/" + logement.id}>
+            <div className="logements-card" style={{ backgroundImage: `url(${logement.pictures[0]})` }}>
+                <h5 className="logements-title">{logement.title}</h5>
+                <div className="logements-backgroud"></div>
             </div>
         </NavLink>
 

@@ -1,0 +1,105 @@
+/* _Nav */
+.nav {
+    /* Accueil */
+
+
+    position: absolute;
+    left: 75.08%;
+    right: 13.95%;
+    top: 25%;
+    bottom: 25%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    /* or 34px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #FF6060;
+
+}
+
+.nav-active {}
+
+.logo {
+    /* .LOGO */
+
+    position: absolute;
+    left: 0%;
+    right: 83.04%;
+    top: 0%;
+    bottom: 0%;
+
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 0%;
+    right: 95.62%;
+    top: 0%;
+    bottom: 8.45%;
+
+    background: #FF6060;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 9.58%;
+    right: 87.24%;
+    top: 21.53%;
+    bottom: 7.89%;
+
+    background: #FF6060;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 13.66%;
+    right: 83.04%;
+    top: 21.25%;
+    bottom: 7.9%;
+
+    background: #FF6060;
+
+
+    /* Group */
+
+    position: absolute;
+    left: 4.86%;
+    right: 91.43%;
+    top: 21.53%;
+    bottom: 0%;
+
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 7.38%;
+    right: 92.19%;
+    top: 68.66%;
+    bottom: 8.17%;
+
+    background: #FF6060;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 4.86%;
+    right: 91.43%;
+    top: 21.53%;
+    bottom: 0%;
+
+    background: #FF6060;
+
+}
