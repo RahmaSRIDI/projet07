@@ -12,7 +12,7 @@ const NotFound = () => {
                 Oups! La page que vous demandez n'existe pas.
             </div>
             <div className='back-to-Home'>Retourner sur la page d’accueil</div>
-            <div><Footer></Footer></div>
+            <Footer></Footer>
         </div>
     );
 };

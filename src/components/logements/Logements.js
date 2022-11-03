@@ -12,7 +12,7 @@ const Logements = () => {
             .then((res) => setData(res.data))
             .catch((err) => console.log(err));
 
-    }, []);
+    },/*callback*/[]);
     return (
 
         <div className="logements-background">
