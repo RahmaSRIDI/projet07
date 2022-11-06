@@ -1,0 +1,21 @@
+.server {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.server_name {
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.server_name p {
+    margin: 0;
+    text-align: end;
+}
+
+.server_picture {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}

@@ -1,0 +1,91 @@
+.collapse {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.collapse:nth-of-type(1) {
+    animation: show-up 600ms 120ms both;
+    transform-origin: center;
+}
+
+.collapse:nth-of-type(2) {
+    animation: show-up 600ms 240ms both;
+    transform-origin: center;
+}
+
+.collapse:nth-of-type(3) {
+    animation: show-up 600ms 360ms both;
+    transform-origin: center;
+}
+
+.collapse:nth-of-type(4) {
+    animation: show-up 600ms 480ms both;
+    transform-origin: center;
+}
+
+.collapse__button {
+    color: #f7f7f7;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6060;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.collapse__arrow {
+    margin-right: 1rem;
+    pointer-events: none;
+    transform: rotate(90deg);
+    transition: transform 300ms;
+    transform-origin: bottom -25%;
+    translate: -50% -50%;
+}
+
+.collapse__content {
+    color: #ff6060;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-top: -5px;
+    z-index: -1;
+    max-height: 0;
+    transition: max-height 250ms ease-out, padding 300ms ease-out;
+    overflow: hidden;
+    padding-left: 12px;
+}
+
+.collapse__text {
+    margin: 0;
+    font-size: 12px;
+}
+
+.collapse__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.collapse__list-element {
+    margin-bottom: 3px;
+}
+
+.rotate {
+    transform: rotate(270deg);
+}
+
+.show {
+    max-height: 500px;
+    padding: 24px 12px 12px 12px;
+    transition: max-height 250ms ease-in-out, padding 300ms ease-in-out;
+}
+
+.collapse__text {
+    margin: 0;
+    font-size: 12px;
+}

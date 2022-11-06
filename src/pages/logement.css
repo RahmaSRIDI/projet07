@@ -1,0 +1,114 @@
+.logement_background {
+    margin: auto;
+    width: 92%;
+    padding-top: 4%;
+
+}
+
+
+.single_product {
+    margin: 0 5%;
+    color: #ff6060;
+}
+
+.single_product_content {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    .single_product_content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+}
+
+.single_product_title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 350px) {
+    .single_product_title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .single_product_title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .single_product_title {
+        font-size: 36px;
+    }
+}
+
+.single_product_location {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 350px) {
+    .single_product_location {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .single_product_location {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .single_product_location {
+        font-size: 18px;
+    }
+}
+
+.single_product_tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single_product_rating_and_host {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location_subheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+    .single_product_rating_and_host {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .single_product_dropdowns {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .single_product_dropdowns {
+        column-gap: 80px;
+    }
+}

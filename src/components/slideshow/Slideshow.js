@@ -1,46 +1,54 @@
 import React from 'react';
-import useState from 'react';
-import './SlideShow.css'
+import { useState } from "react";
 
-// -------------------------------------------
+import slideRight from "../../assets/fleche-droite.png";
+import slideLeft from "../../assets/fleche-gauche.png";
 
-export default function SlideShow(props) {
+import "./slideShow.css"
+const Slideshow = ({ slides }) => {
 
-    const [slideIdx, setSlideIdx] = useState(0);
-    const imgSize = () => {
-        const slideshowImg = document.querySelector('.slideshow-container img');
-        if (!slideshowImg) {
-            return 0;
-        }
-        return slideshowImg.width;
-    }
+    const [current, setCurrent] = useState(0);
+    const length = slides.length;
 
-    const onNext = () => {
-        if (slideIdx === props.img.length - 1) {
-            setSlideIdx(0)
-        } else {
-            setSlideIdx(slideIdx + 1)
-        }
-    }
+    const nextSlide = () => {
+        setCurrent(current === length - 1 ? 0 : current + 1);
+    };
 
-    const onPrev = () => {
-        if (slideIdx === 0) {
-            setSlideIdx(props.img.length - 1)
-        } else {
-            setSlideIdx(slideIdx - 1)
-        }
-    }
+    const prevSlide = () => {
+        setCurrent(current === 0 ? length - 1 : current - 1);
+    };
 
     return (
-        <div className="slideshow">
-            <div className="slideshow-container" style={{ transform: `translateX(-${slideIdx * imgSize()}px)` }}>
-                {props.img.map((picture) => < img className='slideshow-container-img' src={picture} key={picture} />)}
-            </div>
-            <div className={'slideshow-controls'}>
-                <img src="../chevron-left.png" className={'chevron'} onClick={onPrev} />
-                <img src="../chevron-right.png" className={'chevron'} onClick={onNext} />
-            </div>
-            <div className={'slideshow-idx'}>{slideIdx + 1} / {props.img.length}</div>
+        <div className="slider">
+            {slides.map((picture, index) => {
+                return (
+                    <div
+                        key={index}
+                        className={
+                            index === current
+                                ? "slide slider_active_picture"
+                                : "slide slider_inactive_picture"
+                        }
+                    >
+                        {index === current && (
+                            <img src={picture} alt="" className="slider_picture" />
+                        )}
+                    </div>
+                );
+            })}
+            {/* get button if there are more thant one picture */}
+            {length > 1 ? (
+                <>
+                    <div className="slider_previous" onClick={prevSlide}>
+                        <img src={slideLeft} alt="" className="slider_previous-icon" />
+                    </div>
+                    <div className="slider_next" onClick={nextSlide}>
+                        <img src={slideRight} alt="" className="slider_next-icon" />
+                    </div>
+                </>
+            ) : null}
         </div>
     );
-}
+};
+
+export default Slideshow;
