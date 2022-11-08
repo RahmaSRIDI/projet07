@@ -1,18 +1,30 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
-
+import "./not-found.css"
 const NotFound = () => {
     return (
-        <div className='not-found-body'>
+        <div className='notfound-bg'>
 
             <Header />
-            <div className='text404'>404</div>
-            <div className='text-ops'>
-                Oups! La page que vous demandez n'existe pas.
-            </div>
-            <div className='back-to-Home'>Retourner sur la page d’accueil</div>
+            <br />
+            <br />
+            <div className='error'>
+                <div className="error__content">
+                    <p className="error__number">404</p>
+                    <p className="error__text ">
+                        Oups! La page que vous demandez n'existe pas.
+                    </p>
+                </div>
+                <br />
+                <br /></div>
+            <NavLink to="/" className="error__link">
+                Retourner sur la page d'accueil
+            </NavLink>
+
             <Footer></Footer>
+
         </div>
     );
 };

@@ -13,13 +13,17 @@ const Header = () => {
             </div>
             <div className="list-menu">
                 <div className="navli">
-                    <NavLink cli className="navli" to="/">Accueil</NavLink>
+                    <NavLink className="navli" to="/">
+                        Accueil
+                    </NavLink>
                 </div>
                 <div className="navli">
-                    <NavLink className="navli" to="/about">À propos</NavLink>
+                    <NavLink className="navli" to="/about">
+                        À propos
+                    </NavLink>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

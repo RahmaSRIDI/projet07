@@ -38,8 +38,8 @@
     z-index: 1;
 }
 
-.collapse__arrow {
-    margin-right: 1rem;
+.collapse_arrow {
+    margin-top: 1.5rem;
     pointer-events: none;
     transform: rotate(90deg);
     transition: transform 300ms;

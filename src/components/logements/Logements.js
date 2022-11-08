@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import Card from '../card/Card';
 import "./logements.css"
+import listLogements from "../../db/logements.json";
 
 const Logements = () => {
     const [data, setData] = useState([]);

@@ -38,3 +38,26 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@media (max-width: 375px) {
+
+
+    .banner-text {
+        position: absolute;
+        top: 0;
+        font-size: 30px;
+        color: #fff;
+        font-weight: 500;
+        margin: 0;
+        padding-left: 16px;
+        height: 100%;
+        width: 67%;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        align-content: flex-end;
+        flex-direction: row;
+
+
+    }
+}
