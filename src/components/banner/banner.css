@@ -40,7 +40,15 @@
 }
 
 @media (max-width: 375px) {
+    .banner {
+        border-radius: 10px;
+        position: relative;
+        margin: 50px 0;
+        margin-left: 15px;
 
+        height: 223px;
+        animation: fadeIn 500ms ease-in-out;
+    }
 
     .banner-text {
         position: absolute;

@@ -1,5 +1,10 @@
 .body-about {
     margin-top: 70px;
+
+    padding-bottom: 15%;
+
+
+
 }
 
 
@@ -28,4 +33,48 @@
     width: 100%;
     margin-bottom: 30px;
     margin-left: 4%;
+}
+
+
+
+
+@media (max-width: 375px) {
+    .body-about {
+        margin-top: 7px;
+
+        padding-bottom: 0%;
+
+
+
+    }
+
+
+    .background_title {
+
+        opacity: 0.7;
+        display: flex;
+        width: 94%;
+        height: 100px;
+        margin-left: 20px;
+        justify-content: center;
+
+    }
+
+    .img {
+
+        z-index: -1;
+        object-fit: cover;
+        border-radius: 10px;
+        width: 100%;
+
+    }
+
+
+
+    .container {
+        width: 100%;
+        margin-bottom: 85%;
+        margin-left: 0;
+    }
+
 }

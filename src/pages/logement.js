@@ -43,12 +43,13 @@ const Logement = () => {
                         </div>
                     </div>
                     <div className="single_product_dropdowns">
-                        <Collapse title="description" content={description} />
-                        <Collapse title="équipement" content={equipments} />
+                        <Collapse title="Description" content={description} />
+                        <Collapse title="Equipement" content={equipments} />
                     </div>
                 </div >
-                <Footer></Footer>
             </div>
+            <Footer></Footer>
+
         </div>
     );
 };
