@@ -53,8 +53,9 @@ const Logement = () => {
                     </div>
                 </div >
             </div>
-            <Footer></Footer>
-
+            <div className='footerLogement'>
+                <Footer></Footer>
+            </div>
         </div>
     );
 };

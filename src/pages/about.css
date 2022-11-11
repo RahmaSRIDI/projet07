@@ -1,3 +1,13 @@
+.footerAbout {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+
+
+}
+
 .body-about {
     margin-top: 70px;
 
@@ -29,11 +39,11 @@
 
 
 
-.container {
+/* .container {
     width: 100%;
     margin-bottom: 30px;
     margin-left: 4%;
-}
+} */
 
 
 

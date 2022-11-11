@@ -57,7 +57,9 @@ function About() {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
+            <div className='footerAbout'>
+                <Footer></Footer>
+            </div>
         </div>
     );
 }
