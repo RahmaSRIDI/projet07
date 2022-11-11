@@ -1,11 +1,13 @@
-.footerLogement {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+@media (min-width: 376px) and (max-width: 900px) {
+    .footerLogement {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
 
 
 
+    }
 }
 
 .logement_background {

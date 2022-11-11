@@ -44,10 +44,17 @@
 }
 
 @media (max-width: 375px) {
+    .flex-container {
+        width: 415px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .footer {
         background: #000000;
         bottom: 0;
-        width: 385px;
+        width: 600px;
 
 
 
