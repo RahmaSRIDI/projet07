@@ -13,6 +13,7 @@ const App = () => {
         <Route path='/about' element={<About />}></Route>
         <Route path="logement/:logementId" element={<Logement />} />
         <Route path='*' element={<NotFound />}></Route>
+        <Route render={() => <NotFound />} />
 
       </Routes>
     </BrowserRouter>

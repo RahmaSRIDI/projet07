@@ -9,7 +9,7 @@
 .navbar {
     margin-top: 54px;
     margin-left: 50px;
-    margin-right: 100px;
+    margin-right: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,12 +25,13 @@
 
 
 .list-menu {
+    margin-right: 0px;
     display: flex;
     flex-direction: row;
 }
 
 .navli {
-    margin-right: 70px;
+    margin-right: 20px;
     text-align: right;
     font-family: "Montserrat", sans-serif;
     font-style: normal;

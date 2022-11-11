@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Navigate, useParams } from 'react-router-dom';
 
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
@@ -14,7 +14,12 @@ const Logement = () => {
 
     const { logementId } = useParams();
     console.log("logementId=", logementId)
+
     const logmentSelected = listLogements.find((logmentSelected) => logmentSelected.id === logementId);
+    if (!logmentSelected) {
+        return <Navigate to="/not-found" />
+    }
+
     console.log("logmentSelected=", logmentSelected.tags)
 
     const { title, location, rating, host, equipments, description, pictures } = logmentSelected;
