@@ -48,3 +48,13 @@
     height: 60px;
     filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
 }
+
+
+@media (max-width: 375px) {
+
+    .slider_next-icon,
+    .slider_previous-icon {
+        height: 20px;
+        filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
+    }
+}
