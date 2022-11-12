@@ -1,6 +1,7 @@
 import React from "react";
 import "./collapse.css"
 // possible d'ajuster l'ouverture du collapse avec usestate
+import ArrowTop from "../../assets/arrowTop.png";
 
 const Collapse = ({ title, content }) => {
     const isCollapse = (e) => {
@@ -21,7 +22,7 @@ const Collapse = ({ title, content }) => {
             <button type="button" className="collapse__button" onClick={isCollapse}>
                 {title}
 
-                <p className="collapse_arrow">&lt;</p>
+                <p className="collapse_arrow"><img src={ArrowTop} alt="" /></p>
             </button>
             <div className="collapse__content">
                 {Array.isArray(content) ? (
