@@ -54,6 +54,15 @@
 
 @media (max-width: 375px) {
 
+
+    .logo {
+        position: absolute;
+        left: 9%;
+        right: 83.04%;
+        top: 0%;
+        bottom: 0%;
+    }
+
     .navbar {
 
 

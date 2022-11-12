@@ -49,6 +49,7 @@
 }
 
 .accordion-text {
+    height: 50px;
     color: #FF6060;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -77,6 +78,15 @@
         border: none;
         outline: none;
 
+    }
+
+    .accordion-text {
+        height: 100%;
+        color: #FF6060;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        padding: 18px;
     }
 
     .accordion-container {
