@@ -2,6 +2,7 @@ import React from 'react';
 
 import './about.css';
 import AboutBackground from "../assets/about-backgroud.png";
+import AboutBackgroundMobile from "../assets/aboutBackGroudMobile.png";
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 import Accordion from '../components/accordion/Accordion';
@@ -17,7 +18,10 @@ function About() {
             <div className="body-about">
                 <div className="background_title">
                     <div>
-                        <img className='img' src={AboutBackground} alt="bgdimg" />
+                        {/* <img className='img' src={AboutBackground} alt="bgdimg" /> */}
+                        {/* permet d'afficher les images selon la taille de l'écran*/}
+                        <img src={AboutBackground} srcSet={`${AboutBackgroundMobile} 375w, ${AboutBackground} 376w`} className="img" alt="bgdimg" />
+
                     </div>
                 </div>
                 <br></br>

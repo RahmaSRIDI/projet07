@@ -2,6 +2,8 @@
     border-radius: 10px;
     position: relative;
     margin: 50px 0;
+    margin-left: 7%;
+    margin-right: 7%;
     height: 223px;
     animation: fadeIn 500ms ease-in-out;
 }
@@ -43,17 +45,16 @@
     .banner {
         border-radius: 10px;
         position: relative;
-        margin: 50px 0;
+        margin: 28px 0;
         margin-left: 37px;
-
-        height: 223px;
+        height: 111px;
         animation: fadeIn 500ms ease-in-out;
     }
 
     .banner-text {
         position: absolute;
         top: 0;
-        font-size: 30px;
+        font-size: 28px;
         color: #fff;
         font-weight: 500;
         margin: 0;

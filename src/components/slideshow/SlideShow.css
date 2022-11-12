@@ -3,7 +3,7 @@
 }
 
 .slider_active_picture {
-    height: 255px;
+    height: 415px;
     width: 100%;
     transform: scale(1);
     transition: transform 300ms;
@@ -45,6 +45,6 @@
 
 .slider_next-icon,
 .slider_previous-icon {
-    height: 16px;
+    height: 60px;
     filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
 }

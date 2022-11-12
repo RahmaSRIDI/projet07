@@ -1,11 +1,13 @@
 .logements-background {
-    width: 81%;
+    width: 77%;
+    padding-bottom: 2%;
     margin: 20px auto;
     background: #F7F7F7;
     border-radius: 25px;
 }
 
 .cards {
+    margin-right: 3%;
     left: 0%;
     right: 0%;
     top: 0%;

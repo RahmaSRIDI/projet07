@@ -19,9 +19,11 @@ const NotFound = () => {
                 </div>
                 <br />
                 <br /></div>
-            <NavLink to="/" className="error__link">
-                Retourner sur la page d'accueil
-            </NavLink>
+            <div className='retrun_text'>
+                <NavLink to="/" className="error__link">
+                    Retourner sur la page d'accueil
+                </NavLink>
+            </div>
 
             <Footer></Footer>
 

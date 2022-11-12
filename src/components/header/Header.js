@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
                 <div className="navli">
                     <NavLink className="navli" to="/about">
-                        À propos
+                        A Propos
                     </NavLink>
                 </div>
             </div>
