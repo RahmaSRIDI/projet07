@@ -1,29 +1,33 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import "./header.css"
 import logoHeader from "../../assets/logo-header.svg";
+import { NavLink } from 'react-router-dom';
 const Header = () => {
     return (
+        <nav className="navbar">
+            <NavLink to="/">
+                <img src={logoHeader} alt="Logo" className="navbar__img" />
+            </NavLink>
+            <div className="navbar__links">
+                <NavLink
+                    to="/home"
+                    className={({ isActive }) =>
+                        isActive ? "navbar__links--active" : "navbar__links--inactive"
+                    }
+                >
+                    Accueil
+                </NavLink>
 
-        <div className="navbar">
-            <div className="logo">
-                <NavLink className="nav" to="/">
-                    <img src={logoHeader} alt="Logo Ksa Header" />
+                <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                        isActive ? "navbar__links--active" : "navbar__links--inactive"
+                    }
+                >
+                    About
                 </NavLink>
             </div>
-            <div className="list-menu">
-                <div className="navli">
-                    <NavLink className="navli" to="/">
-                        Accueil
-                    </NavLink>
-                </div>
-                <div className="navli">
-                    <NavLink className="navli" to="/about">
-                        A Propos
-                    </NavLink>
-                </div>
-            </div>
-        </div >
+        </nav>
     );
 };
 
