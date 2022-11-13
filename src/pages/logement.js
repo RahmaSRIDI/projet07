@@ -20,7 +20,6 @@ const Logement = () => {
         return <Navigate to="/not-found" />
     }
 
-    console.log("logmentSelected=", logmentSelected.tags)
 
     const { title, location, rating, host, equipments, description, pictures } = logmentSelected;
 

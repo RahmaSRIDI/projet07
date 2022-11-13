@@ -11,7 +11,7 @@ const Footer = () => {
 
         <div className='flex-container '>
             <div className="footer inner-element">
-                <NavLink to="/">
+                <NavLink to="/home">
                     <img src={logoFooter} alt="Logo footer Kasa" />
                 </NavLink>
                 <p>© {dateAllRight} Kasa. All rights reserved</p>

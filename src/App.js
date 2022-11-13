@@ -7,9 +7,10 @@ import NotFound from './pages/Not-found';
 
 const App = () => {
   return (
+    // implémentation des routes
     <BrowserRouter>
       <Routes>
-        <Route index element={<Home />} />
+
         <Route path='/home' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path="logement/:logementId" element={<Logement />} />

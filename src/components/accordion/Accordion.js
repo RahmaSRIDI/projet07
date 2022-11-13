@@ -10,7 +10,12 @@ const Accordion = (props) => {
     const content = useRef(null);
 
     function toggleAccordion() {
+        // if (setActive==="")
+        // then setActive="active"
+        // else 
+        // set active=""
         setActiveState(setActive === "" ? "active" : "");
+        //détermination de la taille du contenu du texte passé en paramètre (propos)
         setHeightState(
             setActive === "active" ? "0px" : `${content.current.scrollHeight + 100}px`
         );
@@ -24,7 +29,7 @@ const Accordion = (props) => {
         <div className="accordion-section">
             <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
                 <p className="accordion-title">{props.title}</p>
-
+                {/* créer une image sous forme d'un SVG avec rotate et height passé en paramètre props */}
                 <svg
                     className={`${setRotate}`}
                     height={props.height}

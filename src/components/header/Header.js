@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     return (
         <nav className="navbar">
-            <NavLink to="/">
+            <NavLink to="/home">
                 <img src={logoHeader} alt="Logo" className="navbar__img" />
             </NavLink>
             <div className="navbar__links">

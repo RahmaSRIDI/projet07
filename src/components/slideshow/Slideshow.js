@@ -36,7 +36,7 @@ const Slideshow = ({ slides }) => {
                     </div>
                 );
             })}
-            {/* get button if there are more thant one picture */}
+            {/* avoir le button que si on a plus qu'une seule photo */}
             {length > 1 ? (
                 <>
                     <div className="slider_previous" onClick={prevSlide}>

@@ -1,8 +1,8 @@
 import React from "react";
 import "./collapse.css"
-// possible d'ajuster l'ouverture du collapse avec usestate
 import ArrowTop from "../../assets/arrowTop.png";
 
+//accordion de la page logement
 const Collapse = ({ title, content }) => {
     const isCollapse = (e) => {
         e.preventDefault();
