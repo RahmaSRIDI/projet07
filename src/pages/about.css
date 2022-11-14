@@ -21,8 +21,6 @@
 .background_title {
 
     opacity: 0.7;
-    display: flex;
-    width: 100%;
     justify-content: center;
 
 }
