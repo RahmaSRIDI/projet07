@@ -47,7 +47,7 @@
     color: #FFFFFF;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 300px) {
     /* .flex-container {
         width: 415px;
         display: flex;
@@ -82,7 +82,7 @@
     }
 }
 
-@media (min-width: 376px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
     .footer {
         height: 15%;
         width: 100%;

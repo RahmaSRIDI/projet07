@@ -2,10 +2,10 @@
     border-radius: 10px;
     position: relative;
     margin: 75px 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 9%;
     height: 223px;
-    animation: fadeIn 500ms ease-in-out;
+    animation: fadeIn 500ms
 }
 
 .banner-img {
@@ -28,7 +28,7 @@
 .banner-text {
     position: absolute;
     top: 0;
-    font-size: 48px;
+    font-size: 45px;
     color: #fff;
     font-weight: 500;
     margin: 0;
@@ -41,7 +41,7 @@
     align-items: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 300px) {
     .banner {
         border-radius: 10px;
         position: relative;

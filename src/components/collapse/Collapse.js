@@ -22,7 +22,7 @@ const Collapse = ({ title, content }) => {
             <button type="button" className="collapse__button" onClick={isCollapse}>
                 {title}
 
-                <p className="collapse_arrow"><img src={ArrowTop} alt="" /></p>
+                <p className="collapse_arrow"><img className="arrowTop" src={ArrowTop} alt="" /></p>
             </button>
             <div className="collapse__content">
                 {Array.isArray(content) ? (

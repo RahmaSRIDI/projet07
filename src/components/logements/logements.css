@@ -20,18 +20,14 @@
 @media (max-width: 375px) {
 
     .logements-background {
-        width: 100%;
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
+        width: 77%;
+        padding-bottom: 2%;
+        margin: 20px auto;
         background: none;
         border-radius: 25px;
-        margin-left: 0px;
     }
 
     .cards {
-        display: flex;
-        flex-direction: column;
+        margin-right: 12%;
     }
 }

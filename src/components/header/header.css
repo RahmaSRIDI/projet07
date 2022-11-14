@@ -28,14 +28,14 @@
 
 @media only screen and (min-width: 300px) {
     .navbar {
-        margin: 2% 2%;
+        margin: 3% 7%;
         margin-left: 15px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .navbar {
-        margin: 3% 3%;
+        margin: 3% 7%;
     }
 }
 

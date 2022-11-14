@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navigate, useParams } from 'react-router-dom';
+import { Navigate, useLocation, useParams } from 'react-router-dom';
+import { useEffect } from "react";
 
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
@@ -11,6 +12,11 @@ import Rating from '../components/rating/Rating';
 import Server from '../components/server/Server';
 import Collapse from '../components/collapse/Collapse';
 const Logement = () => {
+    const locationPage = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [locationPage]);
+
 
     const { logementId } = useParams();
     console.log("logementId=", logementId)
