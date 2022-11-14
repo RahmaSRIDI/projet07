@@ -19,7 +19,7 @@ const Logement = () => {
 
 
     const { logementId } = useParams();
-    console.log("logementId=", logementId)
+
 
     const logmentSelected = listLogements.find((logmentSelected) => logmentSelected.id === logementId);
     if (!logmentSelected) {
