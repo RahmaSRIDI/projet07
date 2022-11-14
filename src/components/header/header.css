@@ -10,7 +10,7 @@
 @media only screen and (min-width: 350px) {
     .navbar {
         margin: 2% 2%;
-        margin-left: 10%;
+        margin-left: 15px;
     }
 }
 
@@ -22,31 +22,31 @@
 
 @media only screen and (min-width: 992px) {
     .navbar {
-        margin: 5% 5%;
+        margin: 2% 2%;
     }
 }
 
 .navbar__links {
     display: flex;
-    width: 33%;
+    width: 20%;
     justify-content: space-around;
 }
 
 @media only screen and (min-width: 350px) {
     .navbar__links {
-        width: 60%;
+        width: 30%;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .navbar__links {
-        width: 45%;
+        width: 35%;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .navbar__links {
-        width: 33%;
+        width: 20%;
     }
 }
 
