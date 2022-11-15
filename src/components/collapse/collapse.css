@@ -36,6 +36,8 @@
     cursor: pointer;
     position: relative;
     z-index: 1;
+    font-family: "Montserrat";
+    font-size: 18px;
 }
 
 .collapse_arrow {
@@ -58,12 +60,9 @@
     transition: max-height 250ms ease-out, padding 300ms ease-out;
     overflow: hidden;
     padding-left: 12px;
+
 }
 
-.collapse__text {
-    margin: 0;
-    font-size: 12px;
-}
 
 .collapse__list {
     list-style: none;
@@ -88,7 +87,8 @@
 
 .collapse__text {
     margin: 0;
-    font-size: 12px;
+    font-size: 18px;
+    font-family: "Montserrat";
 }
 
 .arrowTop {

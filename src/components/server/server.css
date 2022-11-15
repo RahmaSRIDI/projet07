@@ -4,9 +4,11 @@
 }
 
 .server_name {
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 500;
     margin-right: 10px;
+    font-family: "Montserrat";
+
 }
 
 .server_name p {

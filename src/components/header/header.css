@@ -11,6 +11,8 @@
     display: flex;
     width: 20%;
     justify-content: space-around;
+    font-family: "Montserrat";
+    font-size: 24px;
 }
 
 .navbar__links--active {
@@ -62,15 +64,17 @@
     text-decoration: underline;
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 300px) and (max-width: 768px) {
     .navbar__links--active {
         font-size: small;
+        padding-left: 10px;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px)and (max-width: 992px) {
     .navbar__links--active {
         font-size: medium;
+        padding-left: 10px;
     }
 }
 
@@ -86,15 +90,17 @@
     text-transform: uppercase;
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 300px) and (max-width: 768px) {
     .navbar__links--inactive {
         font-size: small;
+        padding-left: 10px;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px)and (max-width: 992px) {
     .navbar__links--inactive {
         font-size: medium;
+        padding-left: 10px;
     }
 }
 

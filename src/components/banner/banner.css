@@ -28,7 +28,7 @@
 .banner-text {
     position: absolute;
     top: 0;
-    font-size: 40px;
+    font-size: 48px;
     color: #fff;
     font-weight: 500;
     margin: 0;
@@ -36,6 +36,7 @@
     height: 100%;
     width: 100%;
     display: flex;
+    font-family: "Montserrat";
     box-sizing: border-box;
     justify-content: space-around;
     align-items: center;
@@ -68,5 +69,11 @@
         flex-direction: row;
 
 
+    }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .banner-text {
+        font-size: 33px;
     }
 }

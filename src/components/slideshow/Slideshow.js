@@ -5,7 +5,7 @@ import slideRight from "../../assets/fleche-droite.png";
 import slideLeft from "../../assets/fleche-gauche.png";
 
 import "./slideShow.css"
-const Slideshow = ({ slides }) => {
+const SlideShow = ({ slides }) => {
 
     const [current, setCurrent] = useState(0);
     const length = slides.length;
@@ -51,4 +51,4 @@ const Slideshow = ({ slides }) => {
     );
 };
 
-export default Slideshow;
+export default SlideShow;

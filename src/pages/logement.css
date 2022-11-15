@@ -40,6 +40,8 @@
     margin: 0;
     font-size: 18px;
     font-weight: 500;
+    font-family: "Montserrat";
+
 }
 
 @media only screen and (min-width: 350px) {
@@ -63,6 +65,8 @@
 .single_product_location {
     font-size: 14px;
     font-weight: 500;
+    font-family: "Montserrat";
+
 }
 
 @media (max-width: 375px) {
